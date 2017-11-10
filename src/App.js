@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <div className="App">
-          <h1>Type a movie you are looking for!</h1>
+          <h1 className="myTitle">Type a movie you are looking for!</h1>
         <SearchMovie input={this.inputMovieName}/>
         <DisplayMovie name={this.state.movieName}/>
       </div>

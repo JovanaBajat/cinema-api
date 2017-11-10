@@ -1,4 +1,18 @@
 body {
-  background-image: url('./assets/cine1.jpg');
-  background-position: right;
+  background-image: url('./assets/cinema2.jpg');
+  text-align: center;
+  font-family: "Raleway";
+}
+
+.myTitle {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.oneMovie {
+  margin: 2px;
+  width: 20%;
 }
